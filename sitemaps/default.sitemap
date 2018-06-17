@@ -1,0 +1,9 @@
+sitemap default label="ASH-Alpha Smart Homes V1"
+{
+	Frame label="Living Room" {
+		Text item=livingTemp icon=temperature
+		Text item=livingHumid icon=humidity
+        }
+
+
+}

@@ -1,0 +1,4 @@
+Group gAll
+
+Number livingTemp "Living Room Temp [%.2f C]" <tempreture> (gAll) {mqtt="<[mosquitto:/home/livingroom/temp:state:default]"}
+Number livingHumid "Living Room Humidity [%.2f ]" <humidity> (gAll) {mqtt="<[mosquitto:/home/livingroom/humid:state:default]"}
